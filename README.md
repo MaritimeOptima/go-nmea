@@ -1,16 +1,14 @@
-# go-nmea [![Build Status](https://travis-ci.org/adrianmo/go-nmea.svg?branch=master)](https://travis-ci.org/adrianmo/go-nmea) [![Go Report Card](https://goreportcard.com/badge/github.com/adrianmo/go-nmea)](https://goreportcard.com/report/github.com/adrianmo/go-nmea) [![Coverage Status](https://coveralls.io/repos/adrianmo/go-nmea/badge.svg?branch=master&service=github)](https://coveralls.io/github/adrianmo/go-nmea?branch=master) [![GoDoc](https://godoc.org/github.com/adrianmo/go-nmea?status.svg)](https://godoc.org/github.com/adrianmo/go-nmea)
-
 This is a NMEA library for the Go programming language (http://golang.org).
 
 ## Installing
 
 ### Using `go get`
 
-    go get github.com/adrianmo/go-nmea
+    go get github.com/MaritimeOptima/go-nmea
 
 After this command *go-nmea* is ready to use. Its source will be in:
 
-    $GOPATH/src/github.com/adrianmo/go-nmea
+    $GOPATH/src/github.com/MaritimeOptima/go-nmea
 
 ## Supported sentences
 
@@ -41,7 +39,7 @@ package main
 import (
 	"fmt"
 	"log"
-	"github.com/adrianmo/go-nmea"
+	"github.com/MaritimeOptima/go-nmea"
 )
 
 func main() {
